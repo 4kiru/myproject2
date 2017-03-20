@@ -5,5 +5,6 @@ function init() {
 
 function network()
 {
-		alrt(Json.stringify(navigator.connection));
+		datainfo = navigator.connection.type;
+        navigator.notification.alert(datainfo);
 }
