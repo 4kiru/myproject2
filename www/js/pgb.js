@@ -1,7 +1,7 @@
 function init() {
 	document.addEventListener("online", onlinemode, false);
     document.addEventListener("offline", offlinemode, false);
-    
+}
 
 
 function onlinemode(){
@@ -14,6 +14,6 @@ function onlinemode(){
 function offlinemode(){
     alert("urzadzenie jest offline");
 }
-}
+
 
         
