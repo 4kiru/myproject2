@@ -5,5 +5,5 @@ function init() {
 
 function network()
 {
-		navigator.connection;
+		alrt(Json.stringify(navigator.connection));
 }
