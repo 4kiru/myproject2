@@ -2,7 +2,7 @@ function init() {
 	document.addEventListener("online", onlinemode, false);
     document.addEventListener("offline", offlinemode, false);
     
-}
+
 
 function onlinemode(){
     
@@ -11,9 +11,9 @@ function onlinemode(){
     navigator.notification.alert(networkinfo);
 }
 
-function(){
+function offlinemode(){
     alert("urzadzenie jest offline");
 }
-
+}
 
         
