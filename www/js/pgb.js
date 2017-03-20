@@ -1,5 +1,6 @@
 function init() {
-	document.addEventListener("deviceready", onlinemode, false);
+	document.addEventListener("online", onlinemode, false);
+    document.addEventListener("offline", offlinemode, false);
     
 }
 
@@ -9,5 +10,10 @@ function onlinemode(){
     networkinfo = navigator.connection;
     navigator.notification.alert(networkinfo);
 }
+
+function(){
+    alert("urzadzenie jest offline");
+}
+
 
         
